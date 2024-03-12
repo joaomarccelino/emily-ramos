@@ -1,0 +1,13 @@
+.images-area {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .images-area {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* Altera para uma única coluna */
+  }
+}
