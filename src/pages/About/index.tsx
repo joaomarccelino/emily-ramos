@@ -4,7 +4,7 @@ import './style.css'
 
 const About = () => {
   return (
-    <main className='container about-page'>
+    <main className='about-page container'>
       <div className='about-text'>
         <h1>SOBRE</h1>
         <p>

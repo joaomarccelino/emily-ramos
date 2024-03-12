@@ -1,6 +1,5 @@
-import Insta from '../../assets/img/insta-btn.svg';
-import Mail from '../../assets/img/mail-btn.svg';
-
+import { FaInstagram } from "react-icons/fa";
+import { LuMail } from "react-icons/lu";
 import './style.css';
 
 const Footer = () => {
@@ -8,10 +7,10 @@ const Footer = () => {
     <footer className='footer container'>
       <div className="footer-icons">
         <a href="https://www.instagram.com/emilyrammos/">
-          <img src={Insta} alt="Instagram" />
+          <FaInstagram size={60} color="var(--p1)" />
         </a>
         <a href="mailto:contatoemilyramos@gmail.com">
-          <img src={Mail} alt="E-mail" />
+          <LuMail size={60} color="var(--p1)"  />
         </a>
       </div>
       <p>© 2024 Emily Ramos Fotografia. Todos direitos reservados.</p>

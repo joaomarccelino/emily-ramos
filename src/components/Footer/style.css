@@ -7,8 +7,19 @@
 
 .footer-icons {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
-.footer-icons svg {
-  flex: 1;
+.footer-icons a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 0.875rem;
+  }
 }
